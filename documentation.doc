@@ -1,0 +1,19 @@
+#The four primitive data#
+
+- integers - E.g: 7
+- float    - E.g: 7.1
+- string   - E.g: 'Hello'
+- boolean  - E.g: True or False 
+
+Using {}
+storage an value and return with .format(var), can use in strings
+E.g: 
+
+#Arithmetic operators#
+
+Sort
+
+1 - ()
+2 - **
+3 - * / // %
+4 - + - 
