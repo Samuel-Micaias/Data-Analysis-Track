@@ -1,0 +1,7 @@
+#VAR using .format#
+
+Using {}
+storage an value and return with .format(var), can use in strings
+E.g: 
+
+print('The value is {}'.format(n))
