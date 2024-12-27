@@ -1,3 +1,3 @@
-real = float(input('How much money do you have in wallet? R$ '))
-dolar = real/6.27
-print('With {} you can buy USD {:.0f}'.format(real,dolar))12
+real = float(input('How much money do you have in your wallet? R$ '))
+dolar = real / 6.27
+print('With R$ {:.2f}, you can buy USD {:.2f}'.format(real, dolar))
