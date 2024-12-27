@@ -9,11 +9,3 @@ Using {}
 storage an value and return with .format(var), can use in strings
 E.g: 
 
-#Arithmetic operators#
-
-Sort
-
-1 - ()
-2 - **
-3 - * / // %
-4 - + - 
