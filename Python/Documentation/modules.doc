@@ -1,0 +1,4 @@
+1. "Using all objects from the module: >import 'lib'<"
+-----------------------------------------------------------------------------
+2. "Using only useful objects from the module: >from 'lib' import 'object<'"
+-----------------------------------------------------------------------------
