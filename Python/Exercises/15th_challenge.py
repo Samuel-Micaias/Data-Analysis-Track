@@ -1,4 +1,16 @@
-days_located = int(input('How many days did you use the location? '))
-kilometers_used = int(input('How many kilometers did you travel? '))
-price = (60 * days_located) + (kilometers_used * 0.15)
-print('The total amount is ${:.2f}'.format(price))
+from random import shuffle
+
+# Getting the names of the students
+s1 = input('First student: ')
+s2 = input('Second student: ')
+s3 = input('Third student: ')
+
+# Putting the names into a list
+students = [s1, s2, s3]
+
+# Shuffling the list to get a random sequence
+shuffle(students)
+
+# Printing the shuffled sequence
+print('The presentation sequence is:')
+print(students)

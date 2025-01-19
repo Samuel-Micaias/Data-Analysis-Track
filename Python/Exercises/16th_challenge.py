@@ -1,2 +1,2 @@
-import emoji 
-print(emoji.emojize("Hello world :1st_place_medal:"))
+num = float(input('Type a float number: '))
+print('Your float number is {} and its integer part is {}'.format(num, int(num)))

@@ -1,3 +1,15 @@
-c = float(input('Enter the temperature in Celsius: '))
-f = 9 * c / 5 + 32
-print('The temperature of {}°C is equivalent to {}°F!'.format(c, f))
+from random import choice
+
+# Getting the names of the students
+s1 = input('First student: ')
+s2 = input('Second student: ')
+s3 = input('Third student: ')
+
+# Putting the names into a list
+students = [s1, s2, s3]
+
+# Choosing a random student
+chosen_student = choice(students)
+
+# Printing the chosen student
+print(f'The student chosen is {chosen_student}')
