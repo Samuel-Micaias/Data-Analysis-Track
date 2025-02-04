@@ -1,0 +1,91 @@
+1. Count - Counts how many times a variable (or value) appears in a string or phrase.
+
+E.g
+phrase = "Python is great, and Python is popular."
+count_python = phrase.count("Python")
+print(count_python)  # Output: 2
+
+2. Len - Identifies the length of a string or phrase, which is the total number of characters it contains, including spaces, punctuation, and special characters.
+
+E.g
+phrase = "Python is awesome!"
+length = len(phrase)
+print(length)  # Output: 18
+
+3. Find - Returns the index (position) of the first occurrence of a specified value in a string or phrase. If the value is not found, it returns -1.
+
+E.g
+phrase = "Python is great!"
+position = phrase.find("great")
+print(position)  # Output: 10
+
+4. Replace - Replaces occurrences of a specified substring with another substring in a string or phrase.
+
+E.g
+phrase = "Python is great!"
+new_phrase = phrase.replace("great", "awesome")
+print(new_phrase)  # Output: "Python is awesome!"
+
+5. Upper - Converts all characters in a string to uppercase (capital letters).
+
+E.g 
+phrase = "Python is great!"
+uppercase_phrase = phrase.upper()
+print(uppercase_phrase)  # Output: "PYTHON IS GREAT!"
+
+6. Lower - Converts all characters in a string to lowercase (small letters).
+
+E.g
+phrase = "Python is GREAT!"
+lowercase_phrase = phrase.lower()
+print(lowercase_phrase)  # Output: "python is great!"
+
+7. Capitalize - Capitalizes (makes the first letter uppercase) the first character of a string, and converts all other characters to lowercase.
+
+E.g 
+phrase = "python is great!"
+capitalized_phrase = phrase.capitalize()
+print(capitalized_phrase)  # Output: "Python is great!"
+
+8. Title - Capitalizes the first letter of each word in a string and converts all other letters to lowercase.
+
+E.g
+phrase = "python is great and fun!"
+title_phrase = phrase.title()
+print(title_phrase)  # Output: "Python Is Great And Fun!"
+
+9. Strip - Removes leading and trailing whitespace (spaces, tabs, newlines) from a string.
+
+E.g
+phrase = "   Python is great!   "
+stripped_phrase = phrase.strip()
+print(stripped_phrase)  # Output: "Python is great!"
+
+10. Rstrip - Removes trailing whitespace (spaces, tabs, newlines) from the right side of a string.
+
+E.g
+phrase = "Python is great!   "
+right_stripped_phrase = phrase.rstrip()
+print(right_stripped_phrase)  # Output: "Python is great!"
+
+11. Lstrip - Removes leading whitespace (spaces, tabs, newlines) from the left side of a string.
+
+E.g 
+phrase = "   Python is great!"
+left_stripped_phrase = phrase.lstrip()
+print(left_stripped_phrase)  # Output: "Python is great!"
+
+12. Split - Splits a string into a list of substrings based on a specified delimiter (by default, it splits by whitespace)
+
+E.g 
+phrase = "Python is great and fun!"
+split_phrase = phrase.split()
+print(split_phrase)  # Output: ['Python', 'is', 'great', 'and', 'fun!']
+
+13. Join - Joins elements of an iterable (such as a list or tuple) into a single string, using a specified separator.
+
+E.g
+words = ['Python', 'is', 'great', 'and', 'fun!']
+joined_phrase = ' '.join(words)
+print(joined_phrase)  # Output: "Python is great and fun!"
+
